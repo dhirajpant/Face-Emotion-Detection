@@ -34,6 +34,7 @@ def predict_emotion(model, image, class_indices):
 # Streamlit interface
 st.title("Live Face Emotion Recognition")
 st.subheader("Made by Dhiraj")
+st.text("Lets Check")
 
 # Video capture from webcam
 cap = cv2.VideoCapture(0)
